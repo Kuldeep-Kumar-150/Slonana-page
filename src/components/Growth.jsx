@@ -21,8 +21,8 @@ const Growth = () => {
                     </ul>
                 </div>
                 <Row className='align-items-center bg_lightblack rounded-3 mt-5'>
-                    <Col md={6} className='p-0'><img className='w-100' src={cartoonImg} alt="cartoonImg" /></Col>
-                    <Col md={6} className='ps-md-4 ps-lg-5 mt-5 mt-md-0 pb-md-0 pb-5'>
+                    <Col md={6} className='p-0' data-aos="zoom-in-up"><img className='w-100' src={cartoonImg} alt="cartoonImg" /></Col>
+                    <Col md={6} className='ps-md-4 ps-lg-5 mt-5 mt-md-0 pb-md-0 pb-5' data-aos="zoom-in-down">
                         <img width={240} height={52} src={anyBodies} alt="anyBodies" />
                         <p className='text-white ff_helvetica fw-normal fs_md mb-0 pt-2 mt-1'>It’s time to bridge the digital and physical. Anybodies helps established brands like Toys’R’Us connect real-life places and products with NFTs.</p>
                         <a href="#" className='text_darkblue fs_4sm fw-normal ff_helvetica pt-2 mt-1 d-inline-block'>Learn more about</a>

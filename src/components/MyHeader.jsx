@@ -11,7 +11,7 @@ import magic from '../assets/img/svg/magic.svg'
 
 const MyHeader = () => {
     return (
-        <section className='d-flex flex-column align-items-center justify-content-center flex-grow-1'>
+        <section className='d-flex flex-column align-items-center justify-content-center flex-grow-1' >
             <Container className="custom_container">
                 <div className="text-center">
                     <h1 className='fs_6xl fw-normal ff_helvetica text-white mt-5'>Powerful for developers.</h1>

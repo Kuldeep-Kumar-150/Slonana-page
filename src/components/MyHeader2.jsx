@@ -8,7 +8,7 @@ const MyHeader2 = () => {
         <section className='overflow-hidden d-flex flex-column align-items-center justify-content-center flex-grow-1'>
             <Container className='custom_container'>
                 <Row className='flex-column-reverse flex-lg-row align-items-center'>
-                    <Col lg={6}>
+                    <Col lg={6} data-aos="fade-right">
                         <h2 className='fs_7xl text-white ff_helvetica fw-normal'>Developer <span className='d-lg-block'>Resources</span></h2>
                         <p className='text_grey fs_md fw-normal ff_helvetica mt-3 pt-1'>A manual for joining the Solana <span className='d-lg-block'>ecosystem. By builders for builders.</span></p>
                         <a href="#" className='d-inline-block build_now_btn fs_3xsm fw-normal ff_roboto text-black text-uppercase'>Build Now</a>
@@ -17,7 +17,7 @@ const MyHeader2 = () => {
                         </svg>
                         </a>
                     </Col>
-                    <Col lg={6} className='position-relative'>
+                    <Col lg={6} className='position-relative' data-aos="fade-left">
                         <div className="header_position_box d-none d-lg-flex"></div>
                         <img className='w-100 z_index_21' src={headerImg} alt="v" />
                     </Col>
