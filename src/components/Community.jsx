@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const Community = () => {
     return (
-        <section className='community_section_bgimage'>
+        <section className='community_section_bgimage mt-5 pt-5'>
             <Container className='custom_container'>
                 <Row>
                     <Col lg={6}>
