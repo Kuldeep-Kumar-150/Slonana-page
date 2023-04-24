@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import arrow from '../assets/img/svg/arrow_img.svg'
 import changeLog from '../assets/img/png/change_log.png'
 import youTube from '../assets/img/svg/youtube.svg'
+import circleArrow from '../assets/img/svg/circle_arrow.svg'
 import podCast from '../assets/img/svg/Podcast_icon.svg'
 const Source = () => {
     return (
@@ -32,7 +33,7 @@ const Source = () => {
                     <Col lg={6}>
                         <p className='text-white ff_helvetica fw-normal fs_2xl mb-0 mb-lg-3 pb-3 pt-3 pt-lg-0'>Solana Changelog</p>
                         <p className='fw-normal text-white ff_helvetica fs_4sm'>Some more Solana changes from Jacob & Joe. Subscribe to the newsletter: https://solana.us17.list-manage.com/s... Proposal - Priced Compute Units: ...</p>
-                        <a href="#" className='ff_roboto text-white fw-normal fs_3xsm latest_ep_btn'>Latest episode</a>
+                        <a href="#" className='ff_roboto text-white fw-normal fs_3xsm latest_ep_btn text-uppercase'>Latest episode <img className='ms-3' src={circleArrow} alt="circleArrow" /></a>
                     </Col>
                     <Col lg={6}>
                         <img className='w-100' src={changeLog} alt="changeLog" />

@@ -7,21 +7,21 @@ const Community = () => {
             <Container className='custom_container'>
                 <Row>
                     <Col lg={6}>
-                        <p className='fs_xl ff_helvetica fw-normal text-white mb-0 pt-5 mt-4'>Join a community <span className='d-lg-block'>of millions</span></p>
+                        <p className='fs_xl ff_helvetica fw-normal text-white mb-0 pt-5 mt-4'>Join a community <span className='d-lg-block'>of millions.</span></p>
                     </Col>
                     <Col lg={6}>
                         <h3 className='colorfull_text ff_helvetica fs_8xl fw-normal mb-0 mt-4 mt-lg-0'>11.5M+</h3>
-                        <p className='fs_4xsm fw-normal text_grey'>Active accounts</p>
+                        <p className='fs_4xsm fw-normal text_grey text-uppercase ms-1'>Active accounts</p>
                         <h4 className='colorful_text_2 fs_9xl ff_helvetica fw-normal mt-4 pt-3 mb-0'>21.9M</h4>
-                        <p className='fs_4xsm fw-normal text_grey'>NFTs minted</p>
+                        <p className='fs_4xsm fw-normal text_grey text-uppercase ms-1'>NFTs minted</p>
                         <h5 className='colorful_text_3 fs_10xl ff_helvetica fw-normal mb-0 mt-4 pt-3'>$0.00025</h5>
-                        <p className='fs_4xsm fw-normal text_grey'>Average cost per transaction</p>
+                        <p className='fs_4xsm fw-normal text_grey text-uppercase ms-1'>Average cost per transaction</p>
                     </Col>
                 </Row>
                 <Row className='py-sm-5 mt-md-5'>
                     <Col lg={4} className='mt-5'>
                         <h5 className='fs_xl fw-normal ff_helvetica text-white mt-md-3'>Made for <span className='d-lg-block'>mass adoption</span></h5>
-                        <p className='text-uppercase text_grey fs_4xsm fw-normal ff_roboto position-relative numbering_dot'>Live data</p>
+                        <p className='text-uppercase text_grey fs_4xsm fw-normal ff_roboto position-relative numbering_dot ms-2'>Live data</p>
                     </Col>
                     <Col lg={8}>
                         <Row>

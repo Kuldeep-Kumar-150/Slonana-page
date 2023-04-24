@@ -13,7 +13,7 @@ const Footer = () => {
             <Container className='custom_container'>
                 <Row>
                     <Col md={7}>
-                        <img src={footerLogo} alt="footerLogo" />
+                        <img className='crusor_pointer' src={footerLogo} alt="footerLogo" />
                         <p className='fs_4xsm text-white fw-normal ff_roboto mt-4'>Managed by Solana Foundation</p>
                         <div className="d-flex mt-2 mt-sm-4">
                             <a href="#https://www.youtube.com/" className='footer_icons_box d-flex align-items-center justify-content-center me-2'><img src={youtube} alt="youtube" /></a>
