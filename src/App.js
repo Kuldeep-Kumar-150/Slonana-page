@@ -25,7 +25,7 @@ function App() {
         <Route path='/build' element={<SecondPage />} />
       </Routes>
       <BackToTop />
-      {/* <PreLoader /> */}
+      <PreLoader />
     </>
   );
 }
