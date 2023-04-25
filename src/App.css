@@ -17,6 +17,10 @@
   background: rgba(0, 0, 0, 0.6);
 }
 
+.text_nav:hover {
+  color: white;
+}
+
 /*************DROPDOWN***************/
 
 .btn {
@@ -145,7 +149,7 @@
 
 .read_docs_btn:hover {
   background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
-  border-color: black !important;
+  border-color: #8C01FA !important;
 }
 
 .overlay::after {
@@ -159,7 +163,7 @@
 .fast_heading::after {
   content: "";
   position: absolute;
-  left: -17px;
+  left: 0;
   top: 0;
   width: 2px;
   height: 33px;
@@ -169,7 +173,7 @@
 .Decentralized_heading::after {
   content: "";
   position: absolute;
-  left: -17px;
+  left: 0;
   top: 0;
   width: 2px;
   height: 33px;
@@ -179,7 +183,7 @@
 .Scalable_heading::after {
   content: "";
   position: absolute;
-  left: -17px;
+  left: 0;
   top: 0;
   width: 2px;
   height: 33px;
@@ -189,7 +193,7 @@
 .Energy_heading::after {
   content: "";
   position: absolute;
-  left: -17px;
+  left: 0;
   top: 0;
   width: 2px;
   height: 33px;
@@ -429,6 +433,11 @@
   border-color: white;
 }
 
+.bg_light_grey {
+  background-color: rgba(38, 31, 38, 0.3) !important;
+  border-radius: 16px;
+}
+
 @media (min-width:576px) {
   .px_33 {
     padding: 0 33px;
@@ -448,16 +457,6 @@
 }
 
 @media (min-width:992px) {
-  .custom_container {
-    max-width: 1080px !important;
-    padding: 0 12px !important;
-    margin: 0 auto !important;
-  }
-
-  .vh_lg_100 {
-    min-height: 100vh;
-  }
-
   .show_nav {
     position: unset !important;
     left: -100%;
@@ -479,4 +478,14 @@
   }
 }
 
-@media (min-width:1200px) {}
+@media (min-width:1200px) {
+  .custom_container {
+    max-width: 1080px !important;
+    padding: 0 12px !important;
+    margin: 0 auto !important;
+  }
+
+  .vh_lg_100 {
+    min-height: 100vh;
+  }
+}

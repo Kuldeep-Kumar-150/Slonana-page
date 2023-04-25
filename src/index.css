@@ -180,6 +180,7 @@
   border-radius: 24px;
   padding: 10px 21px 12px 20px;
   margin-top: 19px;
+  transition: 0.4s ease-in-out;
 }
 
 .stack_exchange_btn:hover {

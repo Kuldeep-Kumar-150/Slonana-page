@@ -80,7 +80,7 @@ const GetStarted = () => {
                         </div>
                     </Col>
                 </Slider>
-                <Slider {...settings}>
+                <Slider {...settings} className='d-none d-lg-block'>
                     <Col sm={4}>
                         <div className="position-relative mt-3 mx-2 overflow-hidden">
                             <img className='w-100 cards_img' src={cardImg4} alt="images" />

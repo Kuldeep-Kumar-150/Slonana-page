@@ -16,8 +16,8 @@ const MyNav = () => {
   return (
     <nav>
       <div className='nav_bg_clr'>
-        <Container className="custom_container">
-          <p className='ff_roboto text-center fw-normal fs_sm mb-0 py-1'>Breakpoint 2023 - New City. New Vibes - Get Early Access - &gt;</p>
+        <Container className="custom_container py-1 text-center">
+          <p className='ff_roboto fw-normal fs_sm mb-0 text_nav crusor_pointer d-inline'>Breakpoint 2023 - New City. New Vibes - Get Early Access - &gt;</p>
         </Container>
       </div>
       <div className='bg_lightblack pe-lg-4 pe-xl-0 py-3'>

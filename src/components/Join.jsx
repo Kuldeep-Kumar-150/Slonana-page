@@ -9,7 +9,7 @@ import Marquee from 'react-fast-marquee'
 const Join = () => {
   return (
     <section className='py-5 mt-5 overflow-hidden'>
-      <Container className=' position-relative'>
+      <Container className='position-relative'>
         <div className="grid_section_bgimg position-absolute">
           <h4 className='text-white fw-normal ff_helvetica fs_xl'>Join a thriving community.</h4>
         </div>
